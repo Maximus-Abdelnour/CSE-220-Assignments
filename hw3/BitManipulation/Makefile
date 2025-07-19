@@ -4,10 +4,10 @@ CC = gcc
 # compiler flags:
 #  -g    adds debugging information to the executable file
 #  -Wall turns on most, but not all, compiler warnings
-CFLAGS  = -g -Wall -Wextra -Wshadow -Wdouble-promotion -Wformat=2 -Wundef -DDEBUG
+CFLAGS  = -g -Wall -Wextra -Wshadow -Wdouble-promotion -Wformat=2 -Wundef -DDEBUG -std=c99
 
 # the build target executable:
-TARGET = BitManipulation
+TARGET = bit
 
 all: $(TARGET)
 
