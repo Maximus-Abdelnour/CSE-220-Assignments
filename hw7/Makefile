@@ -29,7 +29,7 @@ CFLAGS := -Wall -Wextra -Wshadow -Wdouble-promotion -Wformat=2 -Wundef -pedantic
 DFLAGS := -g -DDEBUG
 PRINT_STATEMENTS := -DERROR -DSUCCESS -DWARN -DINFO
 
-STD := -std=gnu11
+STD := -std=c99
 TEST_LIB := -lcriterion
 LIBS := -lm
 
